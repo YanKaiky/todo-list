@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Center(
       child: ElevatedButton(
         onPressed: (() => controller.start()),
-        child: const Text('Try again'),
+        child: Text('Try again'),
       ),
     );
   }
@@ -102,7 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
         actions: [
           IconButton(
               onPressed: () => controller.start(),
-              icon: const Icon(Icons.refresh_outlined)),
+              icon: Icon(Icons.refresh_outlined)),
         ],
       ),
       body: AnimatedBuilder(
